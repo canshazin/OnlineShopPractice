@@ -1,8 +1,8 @@
 const mysql = require("mysql2");
 const pool = mysql.createConnection({
-  host: "local host",
+  host: "localhost",
   user: "root",
   database: "node-complete",
   password: "tryandhack",
 });
-mpdule.exports = pool.promise();
+module.exports = pool.promise();
